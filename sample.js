@@ -3,7 +3,7 @@
  * @param name {string}
  */
 exports.sayHello = function(name) {
-  return name + ' hello!!';
+  return name + ' hello??';
 };
 
 exports.sayGoodBye = function(name) {
