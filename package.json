@@ -1,0 +1,21 @@
+{
+  "author": "atsumo <bachisuta@gmail.com>",
+  "name": "travis-test",
+  "description": "this is travis test project",
+  "version": "0.0.0",
+  "homepage": "http://travis-ci.org/!#/atsumo/travis-test",
+  "main": "sample",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atsumo/travis-test.git"
+  },
+  "scripts": {
+    "start": "node sample",
+    "test": "find test -type f -name 'test*.js' -print | xargs ./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+
+}
