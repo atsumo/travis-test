@@ -11,11 +11,11 @@
   },
   "scripts": {
     "start": "node sample",
-    "test": "find test -type f -name 'test*.js' -print | xargs ./node_modules/.bin/mocha --reporter spec"
+    "test": "find test -type f -name 'test*.js' -print | xargs ./node_modules/.bin/mocha --reporter spec | ./node_modules/coveralls/bin/coveralls.js"
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "coveralls": "~2.6.1"
   }
-
 }
