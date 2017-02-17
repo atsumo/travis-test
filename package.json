@@ -17,6 +17,6 @@
     "mocha": "*",
     "should": "*",
     "grunt": "*",
-    "grunt-karma-coveralls": "~2.3.0"
+    "grunt-karma-coveralls": "~2.5.4"
   }
 }
